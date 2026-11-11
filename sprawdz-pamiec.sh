@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-printf "Dostępna pamięć:\n\n" #zamiast printf mozna uzyc echo -e
+main() {
+    printf "Dostępna pamięć:\n\n"
+    free -h
+}
 
-free -h
+main
