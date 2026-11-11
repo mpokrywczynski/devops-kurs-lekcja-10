@@ -1,0 +1,9 @@
+name: Deploy
+
+on: workflow_dispatch
+
+jobs:
+  pusty-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK"
